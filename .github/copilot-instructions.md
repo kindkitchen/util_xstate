@@ -5,12 +5,11 @@
 - Check that the `event.output` is typeof `Either.Either.Left`
 - **Do not check, that the event has output or it is of either type!**
 
-
----
----
 ---
 
+---
 
+---
 
 > [source](src/lib/guard_is_output_right.md)
 
@@ -19,12 +18,11 @@
 - Check that the `event.output` is typeof `Either.Either.Right`
 - **Do not check, that the event has output or it is of either type!**
 
-
----
----
 ---
 
+---
 
+---
 
 > [source](src/lib/im_sure.md)
 
@@ -67,12 +65,11 @@ The main part of assumptions is related to `xstate` - `effect` integration.
 
 #### So with correct usage - **you can be sure in some types, possibility to make some transformations, etc.**
 
-
----
----
 ---
 
+---
 
+---
 
 > [source](src/lib/logic_from_declared_effect.md)
 
@@ -110,12 +107,11 @@ usage, when such object may simply be a context of the machine.
   wrapped into <Either>.
 - So into <onError> will be passed <Panic>
 
-
----
----
 ---
 
+---
 
+---
 
 > [source](src/lib/promise_logic_from_effect.md)
 
@@ -180,10 +176,8 @@ const machine = setup({
 await toPromise(createActor(machine).start());
 ```
 
-
----
----
 ---
 
+---
 
-
+---
